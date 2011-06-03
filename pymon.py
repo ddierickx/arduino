@@ -29,6 +29,7 @@ def run(measure_delay, transmit_delay):
 			time.sleep(measure_delay)
 			delay += measure_delay
 
+#Submit data to pachube.com
 def pachube(sensors):
 	temp, light = sensors
 	print str(temp) + " C - " + str(light)
