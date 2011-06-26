@@ -15,7 +15,6 @@ class ArduinoApp
   public: 
     ArduinoApp();
     void registerComponent(ArduinoComponent* component);
-    std::vector<ArduinoComponent*> getComponents();
     void setup();
     void loop();
   private:

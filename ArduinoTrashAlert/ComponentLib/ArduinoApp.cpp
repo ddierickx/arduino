@@ -40,8 +40,3 @@ void ArduinoApp::registerComponent(ArduinoComponent* component)
 {
   components.push_back(component);
 }
-
-std::vector<ArduinoComponent*> ArduinoApp::getComponents()
-{
-    return components;
-}
